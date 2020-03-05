@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style right */
+
+.Contenedor {
+  display: flex;
+}
+
+/* Bloques */
+
+.one {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #064a76;
+}
+
+.two {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #064a76;
+}
+
+.three {
+  width: 50px;
+  height: 150px;
+  position: absolute;
+  top: 250px;
+  left: 0;
+  background: #064a76;
+}
+
+.four {
+  width: 50px;
+  height: 150px;
+  position: absolute;
+  top:  500px;
+  left: 0;
+  background: #064a76;
+}
+
+.five {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  background: #064a76;
+}
+
+/* Contenedor del login */
+
+.Login-container {
+  width: 85vw;
+  height: 100vh;
+}
+
+.logo {
+  width: 150px;
+  height: 130px;
+  margin-top: 1rem;
+}
+
+.card {
+  margin: 5rem auto;
+}
+
+.header {
+  width: 100%;
+  height: 25vh;
+  background: #fff;
+}
+
+/**********************************************/
+
+.container {
+  float: right;
+  width: 15vw;
+  height: 110vh;
+  background: #064a76;
+}
+
+.img {
+  position: absolute;
+  right: 4rem;
+  top: 23rem;
+  width: 350px;
+  height: 350px;
+}
+
+.form {
+  width: 100%;
+  height: 75%;
+  background: #064a76;
+  padding: 3rem;
+}
+
+.frm {
+  width: 25rem;
+  margin-top: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 16rem;
+  color: #fff;
+}
+
+hr {
+  border: 1px solid #fff;
+  width: 25rem;
+}

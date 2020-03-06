@@ -267,11 +267,12 @@
                     </template>
 
                     <template v-slot:item.accion="{ item }">
-                        <v-icon dark color="#064a76" @click="editar(item)">mdi-pencil</v-icon>
+                        <!-- <v-icon dark color="#064a76" @click="editar(item)">mdi-pencil</v-icon> -->
+                        <v-icon dark color="#064a76" @click="dialog = !dialog">mdi-plus</v-icon>
 
                         <v-icon dark color="error" @click="borrar(item)">mdi-delete</v-icon>
 
-                        <v-icon dark color="#f8a01c" @click="">mdi-package-variant-closed</v-icon>
+                        <!-- <v-icon dark color="#f8a01c" @click="">mdi-package-variant-closed</v-icon> -->
                     </template>
 
                   </v-data-table>
@@ -282,9 +283,9 @@
                           <v-icon dark>mdi-printer</v-icon>
                       </v-btn>
 
-                      <v-btn class="ma-2 elevation-20" fab dark small color="#064a76" @click="dialog = !dialog">
+                      <!-- <v-btn class="ma-2 elevation-20" fab dark small color="#064a76" @click="dialog = !dialog">
                           <v-icon dark>mdi-plus</v-icon>
-                      </v-btn>
+                      </v-btn> -->
 
                       <v-btn class="ma-2 elevation-20" fab dark small color="#064a76" @click="dialog = !dialog">
                           <v-icon dark>mdi-file-pdf-outline</v-icon>

@@ -62,7 +62,7 @@ $(document).ready(function () {
        formTitle () {
          //operadores condicionales "condición ? expr1 : expr2"
          // si <condicion> es true, devuelve <expr1>, de lo contrario devuelve <expr2>
-         return this.editedIndex === -1 ? 'Agregar Un Nuevo Producto' : 'Modificar Informacion'
+         return this.editedIndex === -1 ? 'Entrada de Producto' : 'Modificar Informacion'
        },
     },
 

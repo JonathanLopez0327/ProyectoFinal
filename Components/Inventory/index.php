@@ -208,13 +208,18 @@
                   <v-data-table dense height="300" :headers="headers" :items="productos" :search="search" :items-per-page="10" class="mt-6 dtables">
                     <template v-slot:top>
                       <!--  Modal del diálogo para Alta y Edicion    -->
-                      <v-dialog v-model="dialog" max-width="1000px">
+                      <v-dialog v-model="dialog" max-width="800px">
                         <template v-slot:activator="{ on }"></template>
                         <v-card>
-                            <v-toolbar dark color="#e5520f">
-                                <v-icon>mdi-package-variant-closed</v-icon>
+                            <v-toolbar dark color="#064a76">
+                              <v-icon>mdi-package-variant-closed</v-icon>
                               <v-toolbar-title class="ml-5">{{ formTitle }}</v-toolbar-title>
                             </v-toolbar>
+
+                            <!-- <v-card-title class="success" dark>
+                              <v-icon>mdi-package-variant-closed</v-icon>
+                              <v-toolbar-title class="ml-5">{{ formTitle }}</v-toolbar-title>
+                            </v-card-title> -->
 
                           <!-- </v-card-title> -->
 
